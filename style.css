@@ -1,0 +1,20 @@
+#orangeb {
+    border-radius: 1%;
+    border-color: orange;
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 85px;
+    color: indianred;
+}
+
+h5 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #48aaad;
+}

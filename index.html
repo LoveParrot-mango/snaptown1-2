@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body background="final.jpg">
+<center>
+  <h1>Snap Town </h1>
+  
+  <h5>Be the next talk of the town!</h5>
+  <br> <hr> <br>
+  <h4> Click on the different buttons to try on stunning lipstick shades </h4>
+  <br><br>
+
+  <div class="row">
+    <button class="btn btn-success" onclick="red()">Bright Red</button>
+    <button class="btn btn-success" onclick="pink()">Baby Pink</button>
+    <button class="btn btn-success" onclick="magenta()">Hot pink</button>
+    <button class="btn btn-success" onclick="green()">Shamrock</button>
+    <button class="btn btn-success" onclick="darkchoco()">Dark Chocolate</button>
+    <button class="btn btn-success" onclick="black()">Raven</button>
+  </div>
+  <br>
+  <div class="row">
+    <button class="btn btn-default" onclick="redgloss()">Red Gloss</button>
+    <button class="btn btn-default" onclick="pinkgloss()">Dark Pink Gloss</button>
+    <button class="btn btn-default" onclick="purplegloss()">Purple Gloss</button>
+    <button class="btn btn-default" onclick="silver()">Silver Sparkle</button>
+    <button class="btn btn-default" onclick="gold()">Gold</button>
+    <button class="btn btn-default" onclick="grey()">Grey</button>
+  </div>
+  <br>
+  <div class="row">
+    <button class="btn btn-info" onclick="mix()">Gradient</button>
+    <button class="btn btn-info" onclick="rainbow()">Rainbow Gloss</button>
+  </div>
+<br>
+  <button class="btn btn-warning" id="orangeb" onclick="take_snapshot()">Take Snapshot</button>
+
+
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
